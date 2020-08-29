@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Game</title>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+<div id="select">
+<div class="mode easy selected">Easy</div>
+<div class="mode medium">Medium</div>
+<div class="mode hard">Hard</div>
+</div>
+<div id="container">
+		<div id="correct"> </div>
+		<div id="wrong">wrong</div>
+		<div id="score">
+			Score :<span id="scorevalue">0</span>		
+		</div>
+		<div id="question">
+			<span id="x"></span> <span id="operator"></span> <span id="y"></span>
+			
+		</div>
+		<div id="instruction">
+			Click On the correct Answer
+		</div>
+		<div id="answer">
+			<div class="box" id="box1">35</div>
+			<div class="box" id="box2"></div>
+			<div class="box" id="box3"></div>
+			<div class="box" id="box4"></div>
+			
+		</div>
+		<div id="start"> Start Game</div>
+		<div id="time">
+			Time Remaining :<span id="timevalue">00</span> sec
+		</div>
+		<div id="gameover">
+			<p>Game Over!!!</p>
+			<p>Your Score is <span id="gameoverscore">20.</span></p>
+		</div>
+
+
+</div>
+
+<div id="highScore">
+	High Score <span id="highScoreValue">0</span>
+</div>
+
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
